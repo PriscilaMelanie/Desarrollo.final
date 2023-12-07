@@ -1,0 +1,423 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000000;
+    position: fixed;
+    padding: 5px;
+    width: 100%;
+    z-index: 1000; 
+}
+
+
+header div nav ul {
+    display: flex;
+}
+
+  
+nav ul li a {
+    color: #c9a40e;
+    font-size: 20px;
+    line-height: 50px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.banner {
+    background-image: url('img/Banner.jpg');
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 30px;
+}
+
+ .banner h1 {
+    position: relative;
+    left: 15px;
+    top: 30px;
+    font-size: 70px;
+    color: #ffffff;
+    margin-bottom: 150px; 
+    height: 11px;
+    width: 15px;
+}
+
+ .banner h2 {
+    position: relative;
+    right: 375px;
+    top: 35px;
+    padding: 10px;
+    font-size: 30px;
+    color: #c9a40e;
+    margin-bottom: 100px; 
+    height: 11px;
+}
+
+.contenedor {
+    width: 1200px;
+    padding: 0 12px;
+    margin: 0 35px auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    font-family: 'Alice', serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-size: 45px;
+    font-family: 'Playfair Display', serif;
+    padding: 0 50px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+#Nosotros h2 {
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    margin: 40px auto;
+    padding: 40px;
+}
+
+.boton {
+    display: block;
+    width: 100px;
+    height: 25px;
+    margin: 0 auto;
+    line-height: 25px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 55px;
+    font-size: 15px;
+    color: #000000;
+    border: 2px solid #000000;
+    background-color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.boton1 {
+    display: block;
+    width: 60px;
+    height: 20px;
+    margin: 0 auto;
+    line-height: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 55px;
+    font-size: 10px;
+    color: #000000;
+    border: 2px solid #000000;
+    background-color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+}
+
+.botoncta {
+    display: block;
+    width: 600px;
+    height: 60px;
+    margin: 0 auto;
+    line-height: 0px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 55px;
+    font-size: 30px;
+    color: #000000;
+    border: 2px solid #000000;
+    background-color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+
+}
+
+
+.botoncta2 {
+    display: block;
+    width: 350px;
+    height: 45px;
+    margin: 0 auto;
+    line-height: 5px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 55px;
+    font-size: 20px;
+    color: #000000;
+    border: 2px solid #000000;
+    background-color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+}
+
+.contenedor .flex .base {
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+.contenedor .flex .base h3 {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 2px;
+
+}
+
+.contenedor .flex .base p strong {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+.contenedor .flex .base p {
+    display: block;
+    text-align: justify;
+    padding: 0 3px;
+    margin: 5px 0;
+}
+
+.contenedor .flex .base figure img {
+    padding: 0 15px;
+    margin: 5px;
+    display: block;
+    align-items: center;
+}
+
+
+.contenedor .flex .lip {
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+
+.contenedor .flex .lip h3 {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 2px;
+}
+
+.contenedor .flex .lip p strong {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor .flex .lip p {
+    display: block;
+    text-align: justify;
+    padding: 0 3px;
+    margin: 5px 0;
+}
+
+.contenedor .flex .lip figure img {
+    padding: 0 15px;
+    margin: 5px;
+    display: block;
+    align-items: center;
+}
+
+
+#Tienda .flex .contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.flex .contenedor .producto {
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    margin: 50px auto;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.flex .contenedor .producto article {
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.contenedor .flex .teoria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+.contenedor .flex .teoria h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.contenedor .flex .teoria p {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+}
+
+
+.contenedor .flex .drag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+.contenedor .flex .drag h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.contenedor .flex .drag p {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+.contenedor .flex .galeria {
+    display: flex;
+    margin: 0;
+    padding: 50px 0;
+}
+
+.contenedor .flex .galeria img {
+    justify-content: space-between;
+    align-items: center;
+    margin: -35px;
+    padding: 0;
+}
+
+
+
+/* footer */
+
+footer {
+    background-color: #000000;
+    padding: 5px;
+    font-family: 'Playfair Display', serif;
+}
+
+.pie {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.pie .contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.contacto {
+    color: #c9a40e;
+
+}
+
+.contacto h2 {
+    padding: 0;
+}
+
+.contacto ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contacto ul li {
+    list-style: none;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.contacto p {
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.contacto a {
+    font-size: 17px;
+    color: #c9a40e;
+}
+
+.contacto h2,
+.horario h2 {
+    font-size: 30px;
+}
+
+.horario {
+    color: #c9a40e;
+}
+
+.horario ul {
+    list-style: none;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0 15px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+
+}
+
+.copyright {
+    color: #c9a40e;
+    padding: 0 10px;
+    margin: 5px;
+}
